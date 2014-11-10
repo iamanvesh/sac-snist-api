@@ -1,5 +1,5 @@
 {
-  "name": "sac-snist-api" ,
+  "name": "sac-snist-api",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,8 @@
   "dependencies": {
     "express": "3.17.2",
     "jade": "*",
-	"mongoose": "*",
-	"passport": "^0.2.1"
+    "mongoose": "*",
+    "passport": "^0.2.1",
+    "passport-google": "^0.3.0"
   }
 }

@@ -1,3 +1,3 @@
 module.exports = {
-	"url" : // Insert database url here.
+	"url" : "mongodb://localhost:27017/sac-snist-api"
 }
