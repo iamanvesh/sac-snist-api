@@ -17,10 +17,9 @@ var postSchema = new Schema({
 	},
 	date: {
 		type: Date,
-		required: true,
 		default: Date.now
 	},
-	comments: [Comment],
+	comments: [Comment.Schema],
 	votes: {
 		type: Number,
 		default: 0
