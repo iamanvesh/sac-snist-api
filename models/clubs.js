@@ -17,7 +17,7 @@ var clubSchema = new Schema({
 		type: Number,
 		default: 0
 	},
-	posts: [Post.Schema]
+	posts: [Post.schema]
 });
 
 module.exports = mongoose.model('Club', clubSchema);
