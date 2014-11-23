@@ -15,7 +15,6 @@ module.exports = function(app) {
 			var posts = club.posts;
 			for(i in posts) {
 				if(posts[i]._id == req.body.id) {
-					console.log(posts[i]);
 					posts[i].comments.push(new_comment);
 					
 					club.save(function(err) {
@@ -24,7 +23,6 @@ module.exports = function(app) {
 						else
 							res.send("Successful");
 					});
-					console.log(club);
 				}
 			}
 		});
