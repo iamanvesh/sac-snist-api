@@ -1,3 +1,3 @@
 node_modules
 post-command.txt
-config/database.js
+config/*
